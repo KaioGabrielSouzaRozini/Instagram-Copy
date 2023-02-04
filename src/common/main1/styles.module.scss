@@ -1,0 +1,78 @@
+.all {
+  display: flex;
+}
+.main {
+  background-color: white;
+  color: black;
+  width: 500px;
+  height: 3300px;
+  border-right: 1px solid #cccccc;
+}
+.main2 {
+  background-color: white;
+  color: black;
+  width: 55%;
+  border-right: 2px solid #cccccc;
+}
+.main3 {
+  font-family: sans-serif;
+  background-color: white;
+  color: black;
+  width: 45%;
+  border-right: 2px solid #cccccc;
+}
+.barraLateral {
+  padding-top: 20px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding-left: 12px;
+  height: 951px;
+}
+.instagramLogo {
+  width: 120px;
+  padding-left: 15px;
+  padding-top: 10px;
+}
+.icons {
+  width: 45px;
+}
+.iconDiv {
+  padding-left: 5px;
+  display: flex;
+  justify-items: center;
+}
+.inicialPage {
+  padding-top: 10px;
+  padding-left: 6px;
+  font-weight: bold;
+  font-size: 15.5px;
+  font-family: sans-serif;
+  &:hover {
+    background-color: #efefef;
+    border-radius: 300px;
+  }
+}
+.icon {
+  padding-top: 10px;
+  padding-left: 6px;
+  font-size: 15.5px;
+  font-family: sans-serif;
+  cursor: pointer;
+  &:hover {
+    background-color: #efefef;
+    border-radius: 300px;
+  }
+}
+.img {
+  cursor: pointer;
+  transition: 0.2s;
+  &:hover {
+    scale: (1.06);
+  }
+}
+.profile {
+  width: 25px;
+  border-radius: 20px;
+}

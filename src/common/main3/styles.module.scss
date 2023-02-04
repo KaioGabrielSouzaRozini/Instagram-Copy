@@ -1,0 +1,123 @@
+.main3 {
+  font-family: sans-serif;
+  background-color: white;
+  color: black;
+  width: 35%;
+  border-right: 2px solid #cccccc;
+}
+.chuu {
+  width: 55px;
+  border-radius: 100px;
+  border: 1px solid #c7c7c7;
+}
+.sugestoes {
+  display: flex;
+  padding-left: 50px;
+  padding-bottom: 20px;
+}
+.sugestoesPara {
+  color: rgb(139, 139, 139);
+}
+.verTudo {
+  padding-left: 110px;
+  font-size: 13px;
+  cursor: pointer;
+  &:hover {
+    color: rgb(146, 146, 146);
+  }
+}
+.myPhoto {
+  display: flex;
+  gap: 20px;
+  padding-top: 60px;
+  padding-left: 50px;
+}
+.myPhotoOutras {
+  display: flex;
+  gap: 8px;
+  padding-left: 60px;
+}
+.myName {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.myPhotoDiv {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding-bottom: 20px;
+}
+.mudar {
+  font-size: 13px;
+  padding-left: 40px;
+  color: rgb(0, 162, 255);
+  font-weight: bold;
+  cursor: pointer;
+  &:hover {
+    color: rgb(55, 98, 122);
+  }
+}
+.mudar1 {
+  font-size: 13px;
+  padding-left: 46px;
+  color: rgb(0, 162, 255);
+  font-weight: bold;
+  cursor: pointer;
+  &:hover {
+    color: rgb(55, 98, 122);
+  }
+}
+.mudarChuu {
+  font-size: 13px;
+  padding-top: 30px;
+  padding-left: 120px;
+  color: rgb(0, 162, 255);
+  font-weight: bold;
+  cursor: pointer;
+  &:hover {
+    color: rgb(55, 98, 122);
+  }
+}
+.myName1 {
+  padding: 3px;
+  font-size: 14px;
+}
+.myName2 {
+  padding: 3px;
+  font-size: 14px;
+  color: rgb(139, 139, 139);
+}
+.name1 {
+  padding: 3px;
+  font-size: 14px;
+}
+.name2 {
+  padding: 3px;
+  font-size: 12px;
+  color: rgb(139, 139, 139);
+}
+.outras {
+  width: 40px;
+  border-radius: 20px;
+  border: 1px solid #c7c7c7;
+}
+.recomendacoes {
+  padding-left: 60px;
+  padding-top: 20px;
+  font-size: 12px;
+  color: #afafaf;
+}
+.recomendacoesP {
+  padding-top: 2px;
+}
+.recomendacoesP2 {
+  padding-top: 15px;
+}
+.verificado {
+  display: flex;
+}
+.verificadoDiv {
+  display: flex;
+  align-items: center;
+}
