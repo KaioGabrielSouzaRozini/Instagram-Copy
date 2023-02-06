@@ -10,6 +10,7 @@ const PostagensSection = function () {
           idol="Kim Lip"
           horario={7}
           post="KimLipPost3"
+          comentario="새로운 사진 ♥"
         />
       </div>
       <div className={styles.postDiv}>
@@ -18,6 +19,7 @@ const PostagensSection = function () {
           idol="Choerry"
           horario={13}
           post="ChoerryPost"
+          comentario="나"
         />
       </div>
       <div className={styles.postDiv}>
@@ -26,6 +28,7 @@ const PostagensSection = function () {
           idol="Jinsoul"
           horario={22}
           post="JinsoulPost"
+          comentario="이봐"
         />
       </div>
     </>

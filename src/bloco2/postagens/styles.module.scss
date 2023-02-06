@@ -1,13 +1,12 @@
 .postDiv {
   font-family: sans-serif;
-
   display: flex;
   justify-content: space-between;
 }
 .postDivAll {
   font-family: sans-serif;
   width: 40%;
-  height: 900px;
+  height: 100%;
 }
 .perfilImg {
   width: 40px;
@@ -89,4 +88,14 @@
   color: #757575;
   padding-top: 7px;
   padding-bottom: 20px;
+}
+@media (max-width: 1400px) {
+  .postDivAll {
+    width: 70%;
+  }
+}
+@media (max-width: 450px) {
+  .postDivAll {
+    width: 80%;
+  }
 }

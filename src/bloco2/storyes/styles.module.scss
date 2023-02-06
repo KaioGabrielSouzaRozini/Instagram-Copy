@@ -1,5 +1,5 @@
 .picture {
-  width: 80px;
+  width: 70px;
   border-radius: 100px;
   border: 3px solid #d23394;
 }
@@ -9,4 +9,9 @@
 }
 .splide {
   text-align: center;
+}
+@media (max-width: 1400px) {
+  .picture {
+    width: 60px;
+  }
 }

@@ -12,3 +12,16 @@
   padding-bottom: 10px;
   width: 50%;
 }
+@media (max-width: 1400px) {
+  .splide {
+    width: 80%;
+  }
+}
+@media (max-width: 550px) {
+  .splide {
+    width: 90%;
+  }
+  .storyes {
+    padding-top: 20px;
+  }
+}

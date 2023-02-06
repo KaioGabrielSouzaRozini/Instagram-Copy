@@ -2,8 +2,28 @@
   background-color: white;
   color: black;
   width: 55%;
-  border-right: 2px solid #cccccc;
 }
 .post {
   padding-top: 150px;
+}
+@media (max-width: 1400px) {
+  .main2 {
+    width: 45%;
+  }
+}
+@media (max-width: 650px) {
+  .main2 {
+    width: 75%;
+  }
+}
+@media (max-width: 450px) {
+  .main2 {
+    width: 90%;
+  }
+}
+
+@media (max-width: 300px) {
+  .main2 {
+    width: 100%;
+  }
 }

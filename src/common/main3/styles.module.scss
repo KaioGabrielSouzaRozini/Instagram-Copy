@@ -121,3 +121,49 @@
   display: flex;
   align-items: center;
 }
+@media (max-width: 1600px) {
+  .myPhoto {
+    display: flex;
+    gap: 0;
+    padding-top: 60px;
+    padding-left: 0px;
+  }
+  .myPhotoOutras {
+    display: flex;
+    gap: 0px;
+    padding-left: 0px;
+  }
+  .sugestoes {
+    padding-left: 0;
+  }
+  .recomendacoes {
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 1200px) {
+  .mudar {
+    padding-left: 10px;
+  }
+  .mudar1 {
+    padding-left: 16px;
+  }
+  .mudarChuu {
+    padding-left: 50px;
+  }
+  .verTudo {
+    padding-left: 10px;
+  }
+  .outras {
+    width: 60px;
+    border-radius: 60px;
+  }
+  .chuu {
+    width: 80px;
+  }
+}
+@media (max-width: 650px) {
+  .main3 {
+    width: 0;
+  }
+}

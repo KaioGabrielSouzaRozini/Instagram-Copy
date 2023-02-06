@@ -4,26 +4,13 @@
 .main {
   background-color: white;
   color: black;
-  width: 500px;
+  width: 400px;
   height: 3300px;
   border-right: 1px solid #cccccc;
 }
-.main2 {
-  background-color: white;
-  color: black;
-  width: 55%;
-  border-right: 2px solid #cccccc;
-}
-.main3 {
-  font-family: sans-serif;
-  background-color: white;
-  color: black;
-  width: 45%;
-  border-right: 2px solid #cccccc;
-}
+
 .barraLateral {
   padding-top: 20px;
-
   display: flex;
   flex-direction: column;
   gap: 25px;
@@ -75,4 +62,37 @@
 .profile {
   width: 25px;
   border-radius: 20px;
+}
+@media (max-width: 1400px) {
+  .main {
+    width: 300px;
+  }
+}
+@media (max-width: 450px) {
+  .iconDiv {
+    padding: 0;
+  }
+  .barraLateral {
+    padding-left: 0;
+  }
+  .icon {
+    font-size: 0;
+  }
+  .inicialPage {
+    font-size: 0;
+  }
+  .instagramLogo {
+    width: 0;
+  }
+  .img {
+    width: 30px;
+  }
+  .main {
+    width: 10%;
+  }
+}
+@media (max-width: 300px) {
+  .main {
+    width: 0;
+  }
 }

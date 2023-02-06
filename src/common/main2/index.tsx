@@ -6,7 +6,7 @@ import styles from "./styles.module.scss";
 const Main2 = function () {
   return (
     <main className={styles.main2}>
-      <Container>
+      <Container className={styles.container}>
         <StoryesSection />
         <PostagensSection />
       </Container>

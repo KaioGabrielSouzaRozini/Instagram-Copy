@@ -5,9 +5,16 @@ interface props {
   idol: string;
   horario: number;
   post: string;
+  comentario: string;
 }
 
-const Postagens = function ({ picture, idol, horario, post }: props) {
+const Postagens = function ({
+  picture,
+  idol,
+  horario,
+  post,
+  comentario,
+}: props) {
   return (
     <>
       <div className={styles.postDivAll}>
@@ -62,7 +69,7 @@ const Postagens = function ({ picture, idol, horario, post }: props) {
             curtido por <strong>Chuu</strong> e <strong>outras pessoas</strong>
           </p>
           <p className={styles.comentarioDono}>
-            <strong>{idol}</strong> 새로운 사진 ♥
+            <strong>{idol}</strong> {comentario}
           </p>
           <p className={styles.comentarioTraducao}>Ver tradução</p>
           <p className={styles.comentarios}>ver todos os 94378 comentários</p>
