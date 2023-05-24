@@ -4,8 +4,7 @@
 .main {
   background-color: white;
   color: black;
-  width: 400px;
-  height: 3300px;
+  width: 300px;
   border-right: 1px solid #cccccc;
 }
 
@@ -38,7 +37,7 @@
   font-family: sans-serif;
   &:hover {
     background-color: #efefef;
-    border-radius: 300px;
+    border-radius: 100px;
   }
 }
 .icon {
@@ -49,7 +48,7 @@
   cursor: pointer;
   &:hover {
     background-color: #efefef;
-    border-radius: 300px;
+    border-radius: 100px;
   }
 }
 .img {
@@ -68,12 +67,12 @@
     width: 300px;
   }
 }
-@media (max-width: 450px) {
+@media (max-width: 750px) {
   .iconDiv {
     padding: 0;
   }
   .barraLateral {
-    padding-left: 0;
+    padding-left: 20px;
   }
   .icon {
     font-size: 0;
@@ -88,11 +87,19 @@
     width: 30px;
   }
   .main {
-    width: 10%;
+    width: 80px;
   }
 }
-@media (max-width: 300px) {
+@media (max-width: 500px) {
   .main {
+    width: 0px;
+  }
+  .img {
     width: 0;
+    height: 0;
+  }
+  .profile {
+    width: 0;
+    height: 0;
   }
 }

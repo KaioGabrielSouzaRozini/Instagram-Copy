@@ -22,7 +22,10 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <div className={styles.all}>
-        <Main1 />
+        <div className={styles.main1}>
+          <Main1 />
+        </div>
+
         <Main2 />
         <Main3 />
       </div>

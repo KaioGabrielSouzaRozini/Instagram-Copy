@@ -1,7 +1,7 @@
 .storyes {
   padding-top: 50px;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
 }
 .foto {
   width: 100px;
@@ -10,18 +10,18 @@
   padding-left: 45px;
   padding-right: 45px;
   padding-bottom: 10px;
-  width: 50%;
+  width: 60%;
 }
 @media (max-width: 1400px) {
   .splide {
     width: 80%;
   }
 }
-@media (max-width: 550px) {
-  .splide {
-    width: 90%;
-  }
+@media (max-width: 750px) {
   .storyes {
-    padding-top: 20px;
+    justify-content: center;
+  }
+  .splide {
+    padding-left: 0;
   }
 }

@@ -2,8 +2,7 @@
   font-family: sans-serif;
   background-color: white;
   color: black;
-  width: 35%;
-  border-right: 2px solid #cccccc;
+  width: 40%;
 }
 .chuu {
   width: 55px;
@@ -143,27 +142,69 @@
 
 @media (max-width: 1200px) {
   .mudar {
-    padding-left: 10px;
+    padding-left: 0px;
   }
   .mudar1 {
-    padding-left: 16px;
+    padding-left: 0px;
   }
   .mudarChuu {
-    padding-left: 50px;
+    padding-left: 0px;
   }
   .verTudo {
-    padding-left: 10px;
+    padding-left: 0px;
   }
   .outras {
-    width: 60px;
-    border-radius: 60px;
+    width: 0px;
+    border-radius: 0px;
+    height: 0px;
   }
   .chuu {
-    width: 80px;
+    width: 0px;
+    height: 0px;
   }
-}
-@media (max-width: 650px) {
-  .main3 {
+  .recomendacoes {
+    font-size: 0;
+  }
+  .recomendacoesP {
+    font-size: 0;
+  }
+  .recomendacoesP2 {
+    font-size: 0;
+  }
+  .name1 {
+    font-size: 0;
+  }
+  .name2 {
+    font-size: 0;
+  }
+  .mudar1 {
+    font-size: 0;
+  }
+  .mudar {
+    font-size: 0;
+  }
+  .verificado {
     width: 0;
+  }
+  .sugestoes {
+    font-size: 0;
+  }
+  .sugestoesPara {
+    font-size: 0;
+  }
+  .verTudo {
+    font-size: 0;
+  }
+  .myName1 {
+    font-size: 0;
+  }
+  .myName2 {
+    font-size: 0;
+  }
+  .mudarChuu {
+    font-size: 0;
+  }
+  .main3 {
+    width: 20%;
   }
 }

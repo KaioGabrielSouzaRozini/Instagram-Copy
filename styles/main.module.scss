@@ -3,6 +3,20 @@
 }
 .postDiv {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
+  margin-right: 100px;
   padding-bottom: 30px;
+}
+@media (max-width: 1200px) {
+  .postDiv {
+    margin-right: 30px;
+  }
+}
+.main1 {
+  position: fixed;
+}
+@media (max-width: 750px) {
+  .postDiv {
+    justify-content: center;
+  }
 }
