@@ -12,9 +12,16 @@
   padding-bottom: 10px;
   width: 60%;
 }
-@media (max-width: 1400px) {
+@media (max-width: 2000px) {
+  .splide {
+    width: 45%;
+    margin-right: 60px;
+  }
+}
+@media (max-width: 1200px) {
   .splide {
     width: 80%;
+    margin-right: 0px;
   }
 }
 @media (max-width: 750px) {
