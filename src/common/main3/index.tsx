@@ -26,7 +26,7 @@ const Main3 = function () {
             <div className={styles.myPhotoDiv}>
               <div className={styles.myPhotoOutras}>
                 <img
-                  src="/pictures/jinsoul.webp"
+                  src="/pictures/YeoJin.webp"
                   alt="jinsoul"
                   className={styles.outras}
                 />
