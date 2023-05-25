@@ -6,7 +6,7 @@ const Main1 = function () {
     <main className={styles.main}>
       <Container className={styles.barraLateral}>
         <img
-          src="instagram-Logo.png"
+          src="InstagramLogo.png"
           alt="InstagramLogo"
           className={styles.instagramLogo}
         />
